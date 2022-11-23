@@ -11,18 +11,18 @@ const localizer = momentLocalizer(moment);
 const testEvents = [
   {
     title: "First Event",
-    start: new Date(2022, 10, 15, 18, 30),
-    end: new Date(2022, 10, 15, 20, 30),
+    start: new Date(2022, 10, 22, 18, 30),
+    end: new Date(2022, 10, 22, 20, 30),
   },
   {
     title: "Second Event",
-    start: new Date(2022, 10, 15),
-    end: new Date(2022, 10, 15),
+    start: new Date(2022, 10, 22),
+    end: new Date(2022, 10, 22),
   },
   {
     title: "Third Event",
-    start: new Date(2022, 10, 15),
-    end: new Date(2022, 10, 15),
+    start: new Date(2022, 10, 22),
+    end: new Date(2022, 10, 22),
   },
 ];
 console.log(testEvents);
